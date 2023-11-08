@@ -1,1 +1,0 @@
-# devops-o2b-project
