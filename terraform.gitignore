@@ -1,9 +1,9 @@
 # Local .terraform directories
-**/.terraform/*
+/.terraform/*
 .git
-# .tfstate files
-#*.tfstate
-#*.tfstate.*
+.tfstate files
+*.tfstate
+*.tfstate.*
 
 # Crash log files
 crash.log
@@ -48,7 +48,7 @@ website/node_modules
 .vagrant/
 *.backup
 ./*.tfstate
-.terraform/
+.terraform/*
 *.log
 *.bak
 *~
@@ -68,3 +68,4 @@ node_modules/
 *.zip
 tfplan.out
 plan.tfout
+.terraform.lock.hcl
